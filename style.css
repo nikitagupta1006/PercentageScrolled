@@ -1,0 +1,46 @@
+#image-section {
+    background-color: pink;
+}
+
+#image-section li {
+    list-style: none;
+}
+
+#image-section li span {
+    display: inline-block;
+    font-size: 10rem;
+}
+
+#percentage-bar {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 20vw;
+    height: 3rem;
+    border: 2px solid black;
+    background-color: lightgray;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#percentage-bar * {
+    border-radius: 30px;
+}
+
+#inner-div {
+    background-color: goldenrod;
+    width: 0%;
+    height: 100%;
+}
+
+#percentage-bar span {
+    position: absolute;
+    top: 0.1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
